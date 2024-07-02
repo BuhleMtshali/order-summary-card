@@ -3,4 +3,15 @@ body {
   background-image: url(img/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
