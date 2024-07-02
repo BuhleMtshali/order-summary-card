@@ -15,7 +15,11 @@
   <body>
     <div class="container">
       <div class="hero-img">
-        <img src="img/illustration-hero.svg" alt="hero image" />
+        <img
+          src="img/illustration-hero.svg"
+          alt="hero image"
+          class="hero-img"
+        />
       </div>
       <h2>Order Summary</h2>
       <p class="text">
@@ -23,9 +27,15 @@
         on any device<br />anywhere you like!
       </p>
       <div class="audio">
-        <img src="img/icon-music.svg" alt="icon" />
-        <span class="plan-text">Annual Plan<br />$59.99/year</span>
-        <p class="change-link">change</p>
+        <div class="left">
+          <img src="img/icon-music.svg" alt="icon" />
+          <span class="plan-text"
+            >Annual Plan<br /><span class="price">$59.99/year</span></span
+          >
+        </div>
+        <div class="right">
+          <p class="change-link">change</p>
+        </div>
       </div>
       <button>Proceed to Payment</button>
       <p class="cancel">Cancel Order</p>

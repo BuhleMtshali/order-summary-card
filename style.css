@@ -4,14 +4,47 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  background-position: center;
+  background-color: #d6e1ff;
 }
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 500px;
+  max-width: 400px;
+  background-color: white;
+  height: auto;
 }
 .audio {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.plan-text {
+  padding-left: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+.price {
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.change-link {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.hero-img {
+  width: 100%;
+}
+.text {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
 }
